@@ -1,0 +1,122 @@
+11:24:05.673 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+11:24:05.705 [main] INFO  com.api.listeners.TestListener - Started!!!loginTest
+11:24:05.705 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if Login API is working....
+11:24:07.695 [main] INFO  com.api.listeners.TestListener - PassedloginTest
+11:24:07.697 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!
+16:09:59.542 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+16:09:59.582 [main] INFO  com.api.listeners.TestListener - Started!!!loginTest
+16:09:59.582 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if Login API is working....
+16:10:01.090 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+16:10:01.092 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+16:10:01.092 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"rahulk15","password":"#Rahulk15"}
+16:10:01.906 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+16:10:01.907 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 19 Aug 2025 10:40:03 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+16:10:01.936 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NTYwMDAwMywiZXhwIjoxNzU1NjAzNjAzfQ.3sIz4w-wHmyEHbct1qSy4r3QlSil0FF2fH91RCZyXwI",
+    "type": "Bearer",
+    "id": 2358,
+    "username": "rahulk15",
+    "email": "rahulkumaraiet@yahoo.in",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:10:01.992 [main] INFO  com.api.listeners.TestListener - PassedloginTest
+16:10:01.995 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!
+16:38:48.581 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+16:38:48.610 [main] INFO  com.api.listeners.TestListener - Started!!!loginTest
+16:38:48.611 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if Login API is working....
+16:38:49.669 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+16:38:49.669 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+16:38:49.669 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"rahulk15","password":"#Rahulk15"}
+16:38:50.230 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+16:38:50.230 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 19 Aug 2025 11:08:51 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+16:38:50.265 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NTYwMTczMSwiZXhwIjoxNzU1NjA1MzMxfQ.LQ7kgKOD-oiahRqu6l8Oro_SLW9C3EafkrDIGz4Rzns",
+    "type": "Bearer",
+    "id": 2358,
+    "username": "rahulk15",
+    "email": "rahulkumaraiet@yahoo.in",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:38:50.312 [main] INFO  com.api.listeners.TestListener - PassedloginTest
+16:38:50.333 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!
+16:39:04.133 [main] INFO  com.api.listeners.TestListener - Test Suite Started!!!
+16:39:04.161 [main] INFO  com.api.listeners.TestListener - Started!!!loginTest
+16:39:04.161 [main] INFO  com.api.listeners.TestListener - DescriptionVerify if Login API is working....
+16:39:05.167 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+16:39:05.167 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+16:39:05.167 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"rahulk15","password":"#Rahulk15"}
+16:39:05.738 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+16:39:05.739 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 19 Aug 2025 11:09:06 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+16:39:05.766 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NTYwMTc0NiwiZXhwIjoxNzU1NjA1MzQ2fQ.5Dh1SP0gCdw4Gjjef8ZxwJDzXd2CCyNU7e3JkvBf9JY",
+    "type": "Bearer",
+    "id": 2358,
+    "username": "rahulk15",
+    "email": "rahulkumaraiet@yahoo.in",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+16:39:05.807 [main] INFO  com.api.listeners.TestListener - PassedloginTest
+16:39:05.830 [main] INFO  com.api.listeners.TestListener - Test Suite Completed!!!
