@@ -1,6 +1,7 @@
 package com.api.base;
 
 import com.api.models.request.CreateBankAccountRequest;
+import com.api.models.response.BankAccountResponse;
 import io.restassured.response.Response;
 
 public class AccountService extends BaseService{
@@ -11,12 +12,12 @@ public class AccountService extends BaseService{
         return postRequest(payload, BASE_PATH);
     }
 
-    public Response accountsNumber(String endpoint){
-
-        return getRequest(BASE_PATH + "/{accountNumber}");
+    public Response getaccountsNumber(String token, String accountNumber){
+        setAuthToken(token);
+        return getRequest(BASE_PATH + "/" + accountNumber);
     }
-    public Response accountsUser(String endpoint){
-
+    public Response accountsUser(String token){
+        setAuthToken(token);
         return getRequest(BASE_PATH + "/user");
     }
 

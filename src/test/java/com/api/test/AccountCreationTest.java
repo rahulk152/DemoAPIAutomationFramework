@@ -1,6 +1,7 @@
 package com.api.test;
 
 import com.api.base.AuthService;
+import com.api.helper.ConfigReader;
 import com.api.models.request.SignupRequest;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
@@ -9,12 +10,12 @@ public class AccountCreationTest {
     @Test(description = "Verify Signup API ")
     public void createAccountTest(){
        SignupRequest signupRequest = new SignupRequest.Builder()
-                .userName("tejas152")
-                .password("tejas152")
-                .email("tejas@yahoo.in")
-                .firstName("Tejas")
-                .lastName("Yadav")
-                .mobileNumber("7894561230")
+                .userName(ConfigReader.get("newUsername"))
+                .password(ConfigReader.get("newPassword"))
+                .email(ConfigReader.get("newEmail"))
+                .firstName(ConfigReader.get("newFirstName"))
+                .lastName(ConfigReader.get("newLastName"))
+                .mobileNumber(ConfigReader.get("newMobileNumber"))
                 .Build();
         AuthService authService = new AuthService();
         Response response = authService.signUp(signupRequest);

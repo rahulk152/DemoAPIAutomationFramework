@@ -2,6 +2,7 @@ package com.api.test;
 
 import com.api.base.AuthService;
 import com.api.base.UserProfileManagementService;
+import com.api.helper.ConfigReader;
 import com.api.models.request.LoginRequest;
 import com.api.models.response.LoginResponse;
 import com.api.models.response.UserProfileResponse;
@@ -12,7 +13,7 @@ public class GetProfileRequestTest {
     @Test(description = "Verify User Profile API is working....")
     public void getProfileInfoTest(){
         AuthService authService = new AuthService();
-        Response response = authService.login(new LoginRequest("rahulk15","#Rahulk15"));
+        Response response = authService.login(new LoginRequest(ConfigReader.get("username"), ConfigReader.get("password")));
         LoginResponse loginResponse = response.as(LoginResponse.class);
         System.out.println(loginResponse.getToken());
 
