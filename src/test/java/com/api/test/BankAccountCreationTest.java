@@ -21,7 +21,7 @@ public class BankAccountCreationTest {
 
         AccountService accountService = new AccountService();
         CreateBankAccountRequest createBankAccountRequest = new CreateBankAccountRequest(ConfigReader.get("accountType"),ConfigReader.get("branch"));
-        response= accountService.accounts(loginResponse.getToken(),createBankAccountRequest);
+        response= accountService.createAccount(loginResponse.getToken(),createBankAccountRequest);
 
         BankAccountResponse bankAccountResponse = response.as(BankAccountResponse.class);
         System.out.println(bankAccountResponse.getAccountNumber());

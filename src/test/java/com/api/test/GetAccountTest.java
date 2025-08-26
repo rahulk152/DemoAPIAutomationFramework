@@ -25,7 +25,7 @@ public class GetAccountTest {
         AccountService accountService = new AccountService();
 
         // Step 2: API returning multiple accounts
-        response= accountService.getallaccounts(loginResponse.getToken());
+        response= accountService.getAllAccounts(loginResponse.getToken());
 
         // Step 3: Convert JSON Array → List of BankAccountResponse
         List<BankAccountResponse> accounts = Arrays.asList(response.as(BankAccountResponse[].class));
@@ -36,7 +36,7 @@ public class GetAccountTest {
         System.out.println("Latest Account Number: " + accountNumber);
 
         // Now use that account number
-        response = accountService.getaccountsNumber(loginResponse.getToken(), accountNumber);
+        response = accountService.getAccountsNumber(loginResponse.getToken(), accountNumber);
 
 
 

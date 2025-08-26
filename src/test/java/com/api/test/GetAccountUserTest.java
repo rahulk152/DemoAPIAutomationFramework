@@ -16,7 +16,7 @@ public class GetAccountUserTest {
             LoginResponse loginResponse = response.as(LoginResponse.class);
 
             AccountService accountService = new AccountService();
-            response= accountService.getallaccounts(loginResponse.getToken());
+            response= accountService.getAllAccounts(loginResponse.getToken());
             System.out.println(response.getStatusCode());
 
 
