@@ -1,8 +1,9 @@
-package com.api.base;
+package com.api.services;
 
+import com.api.base.BaseService;
 import io.restassured.response.Response;
 
-public class ReportService extends BaseService{
+public class ReportService extends BaseService {
     private static final String BASE_PATH = "/api/reports/statement";
 
     public Response excel(String endpoint){

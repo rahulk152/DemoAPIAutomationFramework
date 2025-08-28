@@ -1,8 +1,9 @@
-package com.api.base;
+package com.api.services;
 
+import com.api.base.BaseService;
 import io.restassured.response.Response;
 
-public class MockUPIService extends BaseService{
+public class MockUPIService extends BaseService {
     private static final String BASE_PATH = "/api/upi/";
 
   /*  public Response initiate(String payload){

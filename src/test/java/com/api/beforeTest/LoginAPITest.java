@@ -1,4 +1,4 @@
-package com.api.test;
+package com.api.beforeTest;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;

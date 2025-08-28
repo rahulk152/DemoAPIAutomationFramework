@@ -1,10 +1,10 @@
-package com.api.base;
+package com.api.services;
 
+import com.api.base.BaseService;
 import com.api.models.request.CreateBankAccountRequest;
-import com.api.models.response.BankAccountResponse;
 import io.restassured.response.Response;
 
-public class AccountService extends BaseService{
+public class AccountService extends BaseService {
     private static final String BASE_PATH = "/api/accounts";
 
    public Response createAccount(String token, CreateBankAccountRequest payload){

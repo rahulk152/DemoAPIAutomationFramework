@@ -1,10 +1,11 @@
-package com.api.base;
+package com.api.services;
 
+import com.api.base.BaseService;
 import com.api.models.request.DepositAmountRequest;
 import com.api.models.request.TransferAmountRequest;
 import io.restassured.response.Response;
 
-public class TransactionService extends BaseService{
+public class TransactionService extends BaseService {
     private static final String BASE_PATH_TRANSACTION = "/api/transactions/";
     private static final String BASE_PATH_TRANSFER = "/api/transactions/transfer";
 

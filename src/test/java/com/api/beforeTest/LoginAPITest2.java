@@ -1,8 +1,7 @@
-package com.api.test;
+package com.api.beforeTest;
 
 import static io.restassured.RestAssured.*;
 import io.restassured.response.Response;
-import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

@@ -1,7 +1,7 @@
 package com.api.test;
 
-import com.api.base.AccountService;
-import com.api.base.AuthService;
+import com.api.services.AccountService;
+import com.api.services.AuthService;
 import com.api.helper.ConfigReader;
 import com.api.models.request.LoginRequest;
 import com.api.models.response.LoginResponse;

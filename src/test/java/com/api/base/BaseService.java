@@ -3,13 +3,12 @@ package com.api.base;
 import static io.restassured.RestAssured.*;
 
 import com.api.filters.LoggingFilter;
-import com.api.models.request.LoginRequest;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class BaseService {
+public abstract class BaseService {
     //Base URI
     //Creating the Request
     //Handling the Response

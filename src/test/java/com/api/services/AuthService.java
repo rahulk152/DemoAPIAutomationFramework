@@ -1,12 +1,13 @@
-package com.api.base;
+package com.api.services;
 
+import com.api.base.BaseService;
 import com.api.models.request.LoginRequest;
 import com.api.models.request.SignupRequest;
 import io.restassured.response.Response;
 
 import java.util.HashMap;
 
-public class AuthService extends BaseService{
+public class AuthService extends BaseService {
     private static final String BASE_PATH = "/api/auth/";
 
     public Response login(LoginRequest payload){

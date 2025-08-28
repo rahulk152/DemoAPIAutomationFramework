@@ -1,10 +1,9 @@
 package com.api.test;
 
-import com.api.base.AccountService;
-import com.api.base.AuthService;
-import com.api.base.TransactionService;
+import com.api.services.AccountService;
+import com.api.services.AuthService;
+import com.api.services.TransactionService;
 import com.api.helper.ConfigReader;
-import com.api.models.request.DepositAmountRequest;
 import com.api.models.request.LoginRequest;
 import com.api.models.request.TransferAmountRequest;
 import com.api.models.response.BankAccountResponse;

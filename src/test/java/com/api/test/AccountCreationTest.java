@@ -1,6 +1,6 @@
 package com.api.test;
 
-import com.api.base.AuthService;
+import com.api.services.AuthService;
 import com.api.helper.ConfigReader;
 import com.api.models.request.SignupRequest;
 import io.restassured.response.Response;

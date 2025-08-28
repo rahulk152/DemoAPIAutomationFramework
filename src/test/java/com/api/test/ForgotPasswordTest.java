@@ -1,6 +1,6 @@
 package com.api.test;
 
-import com.api.base.AuthService;
+import com.api.services.AuthService;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
