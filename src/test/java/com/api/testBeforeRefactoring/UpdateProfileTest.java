@@ -1,0 +1,41 @@
+package com.api.testBeforeRefactoring;
+
+import com.api.helper.ConfigReader;
+import com.api.models.request.LoginRequest;
+import com.api.models.request.ProfileRequest;
+import com.api.models.response.LoginResponse;
+import com.api.models.response.UserProfileResponse;
+import com.api.services.AuthService;
+import com.api.services.UserProfileManagementService;
+import io.restassured.response.Response;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class UpdateProfileTest {
+    @Test(description = "Verify User update Profile API is working....")
+    public void getProfileInfoTest(){
+        AuthService authService = new AuthService();
+        Response response = authService.login(new LoginRequest(ConfigReader.get("username"), ConfigReader.get("password")));
+        LoginResponse loginResponse = response.as(LoginResponse.class);
+        System.out.println(response.asPrettyString());
+
+        System.out.println("------------------------------------------------");
+
+        UserProfileManagementService userProfileManagementService = new UserProfileManagementService();
+        response= userProfileManagementService.getProfile(loginResponse.getToken());
+        System.out.println(response.asPrettyString());
+        UserProfileResponse userProfileResponse = response.as(UserProfileResponse.class);
+        Assert.assertEquals(userProfileResponse.getUsername(),"rahulk15");
+        System.out.println("---------------------------------------------------");
+
+        ProfileRequest profileRequest = new ProfileRequest.Builder()
+                .firstName("Rahul")
+                .lastName("Kumar")
+                .email("rahulkumaraiet@yahoo.in")
+                .mobileNumber("9876543210")
+                .Build();
+
+        response= userProfileManagementService.updateProfile(loginResponse.getToken(),profileRequest);
+        System.out.println(response.asPrettyString());
+    }
+}

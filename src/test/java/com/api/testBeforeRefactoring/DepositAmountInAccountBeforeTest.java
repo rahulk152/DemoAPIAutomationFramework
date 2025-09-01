@@ -1,4 +1,4 @@
-package com.api.beforeTest;
+package com.api.testBeforeRefactoring;
 
 import com.api.helper.ConfigReader;
 import com.api.helper.RandomUtils;

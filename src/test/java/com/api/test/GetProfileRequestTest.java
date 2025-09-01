@@ -1,26 +1,24 @@
 package com.api.test;
 
-import com.api.services.AuthService;
-import com.api.services.UserProfileManagementService;
-import com.api.helper.ConfigReader;
-import com.api.models.request.LoginRequest;
-import com.api.models.response.LoginResponse;
+import com.api.base.BaseTest;
+import com.api.helper.AssertionHelper.Assertions;
 import com.api.models.response.UserProfileResponse;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
-public class GetProfileRequestTest {
+public class GetProfileRequestTest extends BaseTest {
     @Test(description = "Verify User Profile API is working....")
     public void getProfileInfoTest(){
-        AuthService authService = new AuthService();
-        Response response = authService.login(new LoginRequest(ConfigReader.get("username"), ConfigReader.get("password")));
-        LoginResponse loginResponse = response.as(LoginResponse.class);
-        System.out.println(loginResponse.getToken());
+        // Step 1: Call profile API
+        Response response = userProfileManagementService.getProfile(token);
 
-        UserProfileManagementService userProfileManagementService = new UserProfileManagementService();
-        response= userProfileManagementService.getProfile(loginResponse.getToken());
+        // Step 2: Deserialize response
         UserProfileResponse userProfileResponse = response.as(UserProfileResponse.class);
-        System.out.println(userProfileResponse.getUsername());
+
+        // Step 3: Assertions
+        Assertions.validateUserProfile(response, userProfileResponse);
+
+
 
     }
 }

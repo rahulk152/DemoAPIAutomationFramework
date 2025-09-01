@@ -2,8 +2,14 @@ package com.api.helper.AssertionHelper;
 
 import com.api.base.BaseAssertions;
 import com.api.models.response.BankAccountResponse;
+import com.api.models.response.UserProfileResponse;
 import io.restassured.response.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.testng.Assert;
+
 public class Assertions {
+    private static final Logger logger = LoggerFactory.getLogger(Assertions.class);
     // ✅ Common reusable validation for Deposit flow
     public static void validateDepositTransaction(Response response,
                                                   BankAccountResponse updatedAccount,
@@ -42,6 +48,23 @@ public class Assertions {
         AccountAssertions.assertAccountType(account, expectedType);
         AccountAssertions.assertBranch(account, expectedBranch);
     }
+    // ✅ Validate User Profile
+    public static void validateUserProfile(Response response, UserProfileResponse profile) {
+        // Base checks
+        BaseAssertions.assertStatusCode(response, 200);
+        BaseAssertions.assertResponseTime(response, 3000);
+
+        // Profile-specific checks
+        Assert.assertNotNull(profile.getUsername(), "Username should not be null");
+        Assert.assertTrue(profile.getUsername().length() >= 3,
+                "Username should be at least 3 characters long");
+
+        Assert.assertNotNull(profile.getEmail(), "Email should not be null");
+        Assert.assertTrue(profile.getEmail().contains("@"),
+                "Email should contain '@' symbol");
+
+    }
+
 
     // ✅ Error flows
     public static void validateUnauthorized(Response response) {

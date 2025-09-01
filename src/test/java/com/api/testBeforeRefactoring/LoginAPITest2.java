@@ -1,4 +1,4 @@
-package com.api.beforeTest;
+package com.api.testBeforeRefactoring;
 
 import static io.restassured.RestAssured.*;
 import io.restassured.response.Response;

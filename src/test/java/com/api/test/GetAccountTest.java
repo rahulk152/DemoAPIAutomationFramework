@@ -1,5 +1,7 @@
 package com.api.test;
 
+import com.api.base.BaseTest;
+import com.api.helper.RandomUtils;
 import com.api.services.AccountService;
 import com.api.services.AuthService;
 import com.api.helper.ConfigReader;
@@ -12,33 +14,25 @@ import org.testng.annotations.Test;
 import java.util.Arrays;
 import java.util.List;
 
-public class GetAccountTest {
+public class GetAccountTest extends BaseTest {
     @Test(description = "Verify User Account via Account Number API is working....")
     public void getAccountTest(){
 
         // Step 1: Login
-        AuthService authService = new AuthService();
-        Response response = authService.login(new LoginRequest(ConfigReader.get("username"),ConfigReader.get("password")));
-        LoginResponse loginResponse = response.as(LoginResponse.class);
-
-        AccountService accountService = new AccountService();
-
-        // Step 2: API returning multiple accounts
-        response= accountService.getAllAccounts(loginResponse.getToken());
-
-        // Step 3: Convert JSON Array → List of BankAccountResponse
+        // Step 2: Get All Accounts
+        Response response = accountService.getAllAccounts(token);
         List<BankAccountResponse> accounts = Arrays.asList(response.as(BankAccountResponse[].class));
-        BankAccountResponse latestAccount = accounts.get(accounts.size() - 1); // last account
-        String accountNumber = latestAccount.getAccountNumber();
+
+        // Step 2: Pick a random account
+        BankAccountResponse randomAccount = RandomUtils.getRandomAccount(accounts);
+        String accountNumber = randomAccount.getAccountNumber();
+        double oldBalance = randomAccount.getBalance();
 
 
-        System.out.println("Latest Account Number: " + accountNumber);
+        System.out.println("Account Number: " + accountNumber);
 
         // Now use that account number
-        response = accountService.getAccountsNumber(loginResponse.getToken(), accountNumber);
-
-
-
+        response = accountService.getAccountsNumber(token, accountNumber);
 
     }
 }

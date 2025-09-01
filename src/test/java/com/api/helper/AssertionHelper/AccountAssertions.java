@@ -18,4 +18,14 @@ public class AccountAssertions {
         Assert.assertEquals(account.getBranch(), expectedBranch,
                 "Branch mismatch!");
     }
+    // Not null or empty check
+    public static void assertNotNullOrEmpty(String fieldName, String value) {
+        Assert.assertNotNull(value, fieldName + " should not be null");
+        Assert.assertFalse(value.trim().isEmpty(), fieldName + " should not be empty");
+    }
+
+    // Generic equals check
+    public static void assertEquals(String fieldName, String actual, String expected) {
+        Assert.assertEquals(actual, expected, fieldName + " mismatch!");
+    }
 }

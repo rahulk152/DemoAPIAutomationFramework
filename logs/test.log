@@ -4335,3 +4335,679 @@ Connection=keep-alive
     "createdAt": "2025-08-25T05:32:29.858392",
     "ownerName": "Rahul Kumar"
 }
+12:14:36.684 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:14:36.687 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+12:14:36.687 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"rahulk15","password":"#Rahulk15"}
+12:14:37.419 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:14:37.419 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 06:44:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:14:37.458 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcwOTA3OSwiZXhwIjoxNzU2NzEyNjc5fQ.YyCGjNsHOOMBQUPU0tVcYFlidMma0WYx3qLRNgQeaMM",
+    "type": "Bearer",
+    "id": 2358,
+    "username": "rahulk15",
+    "email": "rahulkumaraiet@yahoo.in",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+12:14:37.534 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:14:37.534 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcwOTA3OSwiZXhwIjoxNzU2NzEyNjc5fQ.YyCGjNsHOOMBQUPU0tVcYFlidMma0WYx3qLRNgQeaMM
+Accept=*/*
+Content-Type=application/json
+12:14:37.534 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"accountType":"SALARY","branch":"South Branch"}
+12:14:37.665 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:14:37.666 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 06:44:39 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:14:37.669 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "accountNumber": "6709079818",
+    "accountType": "SALARY",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "South Branch",
+    "createdAt": "2025-09-01T06:44:39.818407481",
+    "ownerName": "Rahul Kumar"
+}
+12:17:05.005 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:17:05.008 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+12:17:05.008 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"rahulk15","password":"#Rahulk15"}
+12:17:05.575 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:17:05.575 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 06:47:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:17:05.610 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcwOTIyNywiZXhwIjoxNzU2NzEyODI3fQ.089D7RfSnnJzk_YyXhIE0Gjf7rl6_Mp5rRYM31OSSM0",
+    "type": "Bearer",
+    "id": 2358,
+    "username": "rahulk15",
+    "email": "rahulkumaraiet@yahoo.in",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+12:17:05.654 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:17:05.654 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcwOTIyNywiZXhwIjoxNzU2NzEyODI3fQ.089D7RfSnnJzk_YyXhIE0Gjf7rl6_Mp5rRYM31OSSM0
+Accept=*/*
+Content-Type=application/json
+12:17:05.655 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"accountType":"SALARY","branch":"North Branch"}
+12:17:05.775 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:17:05.775 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 06:47:07 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:17:05.777 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "accountNumber": "6709227937",
+    "accountType": "SALARY",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "North Branch",
+    "createdAt": "2025-09-01T06:47:07.937642021",
+    "ownerName": "Rahul Kumar"
+}
+12:28:50.805 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:28:50.808 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+12:28:50.808 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"rahulk15","password":"#Rahulk15"}
+12:28:51.336 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:28:51.336 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 06:58:53 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:28:51.368 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcwOTkzMywiZXhwIjoxNzU2NzEzNTMzfQ.3zYiARGqDJ_u7l0_yBjjEB2LuBZ7hChp4v-93y5uaVc",
+    "type": "Bearer",
+    "id": 2358,
+    "username": "rahulk15",
+    "email": "rahulkumaraiet@yahoo.in",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+12:28:51.411 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:28:51.411 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcwOTkzMywiZXhwIjoxNzU2NzEzNTMzfQ.3zYiARGqDJ_u7l0_yBjjEB2LuBZ7hChp4v-93y5uaVc
+Accept=*/*
+Content-Type=application/json
+12:28:51.411 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"accountType":"CURRENT","branch":"North Branch"}
+12:28:51.531 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:28:51.532 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 06:58:53 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:28:51.534 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "accountNumber": "6709933694",
+    "accountType": "CURRENT",
+    "balance": 0,
+    "status": "ACTIVE",
+    "branch": "North Branch",
+    "createdAt": "2025-09-01T06:58:53.694436492",
+    "ownerName": "Rahul Kumar"
+}
+12:35:49.805 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:35:49.808 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+12:35:49.808 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"rahulk15","password":"#Rahulk15"}
+12:35:50.407 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:35:50.407 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 07:05:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:35:50.463 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcxMDM1MiwiZXhwIjoxNzU2NzEzOTUyfQ.gCS2rki8EjO5oXLQ-qiyBpjPBGhZV0b-9l_4PNvDgdg",
+    "type": "Bearer",
+    "id": 2358,
+    "username": "rahulk15",
+    "email": "rahulkumaraiet@yahoo.in",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+12:35:50.505 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:35:50.505 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcxMDM1MiwiZXhwIjoxNzU2NzEzOTUyfQ.gCS2rki8EjO5oXLQ-qiyBpjPBGhZV0b-9l_4PNvDgdg
+Accept=*/*
+12:35:50.506 [main] INFO  com.api.filters.LoggingFilter - Request Payload:null
+12:35:50.636 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:35:50.636 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 07:05:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:35:50.657 [main] INFO  com.api.filters.LoggingFilter - Response Body:[
+    {
+        "accountNumber": "5682485185",
+        "accountType": "SAVINGS",
+        "balance": 2500.00,
+        "status": "ACTIVE",
+        "branch": "Raja park",
+        "createdAt": "2025-08-20T09:34:45.18595",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "5682548652",
+        "accountType": "SAVINGS",
+        "balance": 10000.00,
+        "status": "ACTIVE",
+        "branch": "Main Branch",
+        "createdAt": "2025-08-20T09:35:48.6528",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "5690463679",
+        "accountType": "SALARY",
+        "balance": 49000.00,
+        "status": "ACTIVE",
+        "branch": "North Branch",
+        "createdAt": "2025-08-20T11:47:43.679898",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "5690548661",
+        "accountType": "CURRENT",
+        "balance": 1406.00,
+        "status": "ACTIVE",
+        "branch": "North Branch",
+        "createdAt": "2025-08-20T11:49:08.661317",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "5690664175",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-08-20T11:51:04.175468",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "5690701892",
+        "accountType": "SALARY",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-08-20T11:51:41.892741",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6099949858",
+        "accountType": "SALARY",
+        "balance": 40489.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-08-25T05:32:29.858392",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6100055014",
+        "accountType": "SALARY",
+        "balance": 2401.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-08-25T05:34:15.014194",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6100341703",
+        "accountType": "SALARY",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-08-25T05:39:01.703515",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6364756122",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "North Branch",
+        "createdAt": "2025-08-28T07:05:56.122598",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6364860899",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Main Branch",
+        "createdAt": "2025-08-28T07:07:40.899248",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6709079818",
+        "accountType": "SALARY",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-09-01T06:44:39.818407",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6709227937",
+        "accountType": "SALARY",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "North Branch",
+        "createdAt": "2025-09-01T06:47:07.937642",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6709933694",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "North Branch",
+        "createdAt": "2025-09-01T06:58:53.694436",
+        "ownerName": "Rahul Kumar"
+    }
+]
+12:35:50.678 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:35:50.678 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcxMDM1MiwiZXhwIjoxNzU2NzEzOTUyfQ.gCS2rki8EjO5oXLQ-qiyBpjPBGhZV0b-9l_4PNvDgdg
+Accept=*/*
+Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcxMDM1MiwiZXhwIjoxNzU2NzEzOTUyfQ.gCS2rki8EjO5oXLQ-qiyBpjPBGhZV0b-9l_4PNvDgdg
+12:35:50.678 [main] INFO  com.api.filters.LoggingFilter - Request Payload:null
+12:35:50.801 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:35:50.802 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 07:05:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:35:50.805 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "accountNumber": "5682485185",
+    "accountType": "SAVINGS",
+    "balance": 2500.00,
+    "status": "ACTIVE",
+    "branch": "Raja park",
+    "createdAt": "2025-08-20T09:34:45.18595",
+    "ownerName": "Rahul Kumar"
+}
+12:43:08.393 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:43:08.396 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+12:43:08.396 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"rahulk15","password":"#Rahulk15"}
+12:43:09.034 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:43:09.034 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 07:13:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:43:09.071 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcxMDc5MSwiZXhwIjoxNzU2NzE0MzkxfQ.ZrijhKkPM8RJ0QKf9QyNDXZ93hz9HUw2HGBoo3Xfck4",
+    "type": "Bearer",
+    "id": 2358,
+    "username": "rahulk15",
+    "email": "rahulkumaraiet@yahoo.in",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+12:43:09.115 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:43:09.115 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcxMDc5MSwiZXhwIjoxNzU2NzE0MzkxfQ.ZrijhKkPM8RJ0QKf9QyNDXZ93hz9HUw2HGBoo3Xfck4
+Accept=*/*
+12:43:09.115 [main] INFO  com.api.filters.LoggingFilter - Request Payload:null
+12:43:09.244 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:43:09.245 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 07:13:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:43:09.264 [main] INFO  com.api.filters.LoggingFilter - Response Body:[
+    {
+        "accountNumber": "5682485185",
+        "accountType": "SAVINGS",
+        "balance": 2500.00,
+        "status": "ACTIVE",
+        "branch": "Raja park",
+        "createdAt": "2025-08-20T09:34:45.18595",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "5682548652",
+        "accountType": "SAVINGS",
+        "balance": 10000.00,
+        "status": "ACTIVE",
+        "branch": "Main Branch",
+        "createdAt": "2025-08-20T09:35:48.6528",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "5690463679",
+        "accountType": "SALARY",
+        "balance": 49000.00,
+        "status": "ACTIVE",
+        "branch": "North Branch",
+        "createdAt": "2025-08-20T11:47:43.679898",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "5690548661",
+        "accountType": "CURRENT",
+        "balance": 1406.00,
+        "status": "ACTIVE",
+        "branch": "North Branch",
+        "createdAt": "2025-08-20T11:49:08.661317",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "5690664175",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-08-20T11:51:04.175468",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "5690701892",
+        "accountType": "SALARY",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-08-20T11:51:41.892741",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6099949858",
+        "accountType": "SALARY",
+        "balance": 40489.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-08-25T05:32:29.858392",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6100055014",
+        "accountType": "SALARY",
+        "balance": 2401.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-08-25T05:34:15.014194",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6100341703",
+        "accountType": "SALARY",
+        "balance": 2000.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-08-25T05:39:01.703515",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6364756122",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "North Branch",
+        "createdAt": "2025-08-28T07:05:56.122598",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6364860899",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "Main Branch",
+        "createdAt": "2025-08-28T07:07:40.899248",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6709079818",
+        "accountType": "SALARY",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "South Branch",
+        "createdAt": "2025-09-01T06:44:39.818407",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6709227937",
+        "accountType": "SALARY",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "North Branch",
+        "createdAt": "2025-09-01T06:47:07.937642",
+        "ownerName": "Rahul Kumar"
+    },
+    {
+        "accountNumber": "6709933694",
+        "accountType": "CURRENT",
+        "balance": 0.00,
+        "status": "ACTIVE",
+        "branch": "North Branch",
+        "createdAt": "2025-09-01T06:58:53.694436",
+        "ownerName": "Rahul Kumar"
+    }
+]
+12:49:29.376 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:49:29.380 [main] INFO  com.api.filters.LoggingFilter - Request Header:Accept=*/*
+Content-Type=application/json
+12:49:29.380 [main] INFO  com.api.filters.LoggingFilter - Request Payload:{"username":"rahulk15","password":"#Rahulk15"}
+12:49:29.944 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:49:29.944 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 07:19:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:49:29.985 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcxMTE3MiwiZXhwIjoxNzU2NzE0NzcyfQ.jItOkUHowWbHhW4tytM0oIiqPBYNjY0ZiDbI5sKy-Dw",
+    "type": "Bearer",
+    "id": 2358,
+    "username": "rahulk15",
+    "email": "rahulkumaraiet@yahoo.in",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+12:49:30.029 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+12:49:30.029 [main] INFO  com.api.filters.LoggingFilter - Request Header:Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJyYWh1bGsxNSIsImlhdCI6MTc1NjcxMTE3MiwiZXhwIjoxNzU2NzE0NzcyfQ.jItOkUHowWbHhW4tytM0oIiqPBYNjY0ZiDbI5sKy-Dw
+Accept=*/*
+12:49:30.030 [main] INFO  com.api.filters.LoggingFilter - Request Payload:null
+12:49:30.153 [main] INFO  com.api.filters.LoggingFilter - STATUS CODE:200
+12:49:30.154 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 01 Sep 2025 07:19:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+12:49:30.157 [main] INFO  com.api.filters.LoggingFilter - Response Body:{
+    "id": 2358,
+    "username": "rahulk15",
+    "email": "rahulkumaraiet@yahoo.in",
+    "firstName": "Rahul",
+    "lastName": "Kumar",
+    "mobileNumber": "9876543210"
+}

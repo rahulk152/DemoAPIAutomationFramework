@@ -6,6 +6,7 @@ import com.api.models.response.LoginResponse;
 import com.api.services.AccountService;
 import com.api.services.AuthService;
 import com.api.services.TransactionService;
+import com.api.services.UserProfileManagementService;
 import io.restassured.response.Response;
 import org.testng.annotations.BeforeMethod;
 
@@ -18,6 +19,7 @@ public abstract class BaseTest {
     protected AccountService accountService;
     protected TransactionService transactionService;
     protected String token;
+    protected UserProfileManagementService userProfileManagementService;
 
     //Runs before each @Test method in your test class.
     @BeforeMethod
@@ -25,6 +27,7 @@ public abstract class BaseTest {
         authService = new AuthService();
         accountService = new AccountService();
         transactionService = new TransactionService();
+        userProfileManagementService = new UserProfileManagementService();
 
         Response response = authService.login(
                 new LoginRequest(ConfigReader.get("username"), ConfigReader.get("password")));
